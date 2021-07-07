@@ -1,14 +1,15 @@
 module.exports = {
+  pathPrefix: "/learn-jp-ln",
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Learn Japanese with Light Novels`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Shi Johnson-Bey`,
+      summary: `Graduate student, developer, fellow Japanese learner.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A starter blog for practicing Japanese vocabulary/grammar.`,
+    siteUrl: `https://shijbey.github.io/learn-jp-ln/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `shijbey`,
     },
   },
   plugins: [
@@ -112,8 +113,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Learn Japanese with Light Novels`,
+        short_name: `Learn JP Light`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
